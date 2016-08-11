@@ -2,6 +2,9 @@
 
 class lesenStundenplan
 {
+    // Subdomain
+    protected $subdomain = null;
+
     // übergebene XML - Datei
     protected $datei = null;
 
@@ -10,6 +13,14 @@ class lesenStundenplan
 
     // HTML Tabellen
     protected $tabelle = '';
+
+    // Farben der Stunden im Vertretungsplan
+    protected $colorVertretungsplan = array(
+        'karte' => '#cce6ff',
+        'text' => '#000000',
+        'aenderung' => '#ff66a3',
+        'weiss' => '#ffffff'
+    );
 
     // Icon Information
     protected $infoIcon = '<img src="warning-3-24.png">';
@@ -130,6 +141,13 @@ class lesenStundenplan
         return $this;
     }
 
+    public function setSubdomain($subdomain)
+    {
+        $this->subdomain = $subdomain;
+
+        return $this;
+    }
+
     /**
      * Auswertung der XML - Datei
      *
@@ -137,6 +155,15 @@ class lesenStundenplan
      */
     public function auswertung()
     {
+        if($this->subdomain == null)
+            exit();
+
+        if($this->datei == null)
+            exit();
+
+        if( ($this->subdomain != 'stundenplan') and ($this->subdomain != 'vertretungsplan') )
+            exit();
+
         // lesen XML - Datei
         $this->lesenXml();
 
@@ -285,10 +312,12 @@ class lesenStundenplan
             $ort = $stundenplan->kl_plan->pl[$i]->pl_raum;
             // $ort = $this->aendernOrt($ort);
 
-            if(!isset($this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde]))
-                $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] = '<div style="background-color: '.$fachDetail['farbe'].';color: '.$fachDetail['text'].';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">'.$fachDetail['fach'].'<br>'.$ort.' '.$besonderheiten.'</div>';
-            else
-                $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] .= '<div style="background-color: '.$fachDetail['farbe'].';color: '.$fachDetail['text'].'; margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">'.$fachDetail['fach'].'<br>'.$ort.' '.$besonderheiten.'</div>';
+            // Stundenplan
+            if($this->subdomain == 'stundenplan')
+                $this->darstellungStundenplan($stundenDerKlasse, $fachDetail, $ort, $besonderheiten);
+            // Vertretungsplan
+            elseif($this->subdomain == 'vertretungsplan')
+                $this->darstellungVertretungsplan($stundenDerKlasse, $fachDetail, $ort, $besonderheiten);
         }
 
         return;
@@ -370,5 +399,68 @@ class lesenStundenplan
                 'text' => '#000000'
             );
         }
+    }
+
+    /**
+     * Darstellung der Stunden mit Subdomain 'stundenplan'
+     *
+     * @param $stundenDerKlasse
+     * @param $fachDetail
+     * @param $ort
+     * @param $besonderheiten
+     */
+    protected function darstellungStundenplan($stundenDerKlasse, $fachDetail, $ort, $besonderheiten)
+    {
+        if (!isset($this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde]))
+            $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] = '<div style="background-color: ' . $fachDetail['farbe'] . ';color: ' . $fachDetail['text'] . ';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' ' . $besonderheiten . '</div>';
+        else
+            $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] .= '<div style="background-color: ' . $fachDetail['farbe'] . ';color: ' . $fachDetail['text'] . '; margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' ' . $besonderheiten . '</div>';
+
+        return;
+    }
+
+    /**
+     * Darstellung der Vertretungsstunden
+     *
+     * @param $stundenDerKlasse
+     * @param $fachDetail
+     * @param $ort
+     * @param $besonderheiten
+     */
+    protected function darstellungVertretungsplan($stundenDerKlasse, $fachDetail, $ort, $besonderheiten)
+    {
+        // Lehrer
+        $lehrer = $stundenDerKlasse->pl_lehrer;
+        $lehrer = $this->ermittelnLehrer($lehrer);
+
+        // Veränderung
+        if( ($stundenDerKlasse->pl_fach->attributes()) or ($stundenDerKlasse->pl_lehrer->attributes()) ){
+            if (!isset($this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde]))
+                $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] = '<div style="background-color: ' . $this->colorVertretungsplan['aenderung'] . ';color: ' . $this->colorVertretungsplan['weiss'] . ';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' '. '<br>' . $lehrer. '<br>' . $besonderheiten . '</div>';
+            else
+                $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] .= '<div style="background-color: ' . $this->colorVertretungsplan['aenderung'] . ';color: ' . $this->colorVertretungsplan['weiss'] . ';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' '. '<br>' . $lehrer. '<br>' . $besonderheiten . '</div>';
+        }
+        // normale Darstellung
+        else{
+            if (!isset($this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde]))
+                $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] = '<div style="background-color: ' . $this->colorVertretungsplan['karte'] . ';color: ' . $this->colorVertretungsplan['text'] . ';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' '. '<br>' . $lehrer. '<br>' . $besonderheiten . '</div>';
+            else
+                $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] .= '<div style="background-color: ' . $this->colorVertretungsplan['karte'] . ';color: ' . $this->colorVertretungsplan['text'] . ';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' '. '<br>' . $lehrer. '<br>' . $besonderheiten . '</div>';
+        }
+
+
+        return;
+    }
+
+    /**
+     * ermittelt den Lehrer im Klartext
+     *
+     * @param $lehrer
+     * @return mixed
+     */
+    protected function ermittelnLehrer($lehrer)
+    {
+
+        return $lehrer;
     }
 }

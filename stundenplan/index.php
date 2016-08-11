@@ -66,12 +66,29 @@
 <?php
 include_once('stundenplan.php');
 
+// ermitteln Subdomain
+$parsedUrl = parse_url($_SERVER['HTTP_HOST']);
+$host = explode('.',$parsedUrl['path']);
+$subdomain = $host[0];
+
+if($subdomain == 'test')
+    exit();
+
+if( ($subdomain == 'vertretungsplan') and ($_SERVER['REQUEST_URI'] == '/stundenplan/') )
+    exit();
+
 $dateien = scandir('plaene/');
 
 foreach($dateien as $datei){
     if( strstr($datei, 'tplan-') ){
         $lesenStundenplanObjekt = new lesenStundenplan();
-        $tabellen = $lesenStundenplanObjekt->setDatei($datei)->auswertung()->ausgabeTabellen();
+
+        $tabellen = $lesenStundenplanObjekt
+            ->setSubdomain($subdomain)
+            ->setDatei($datei)
+            ->auswertung()
+            ->ausgabeTabellen();
+
         echo $tabellen;
     }
 }
