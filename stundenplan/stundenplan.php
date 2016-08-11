@@ -22,6 +22,38 @@ class lesenStundenplan
         'weiss' => '#ffffff'
     );
 
+    protected $lehrer = array(
+        'Peu' => 'Peuschel',
+        'diSi'=> 'di Simoni',
+        'Trö' => 'Tröger',
+        'Ka' => 'Kallweit',
+        'Kr' => 'Krauß',
+        'Lor' => 'Lorenz',
+        'Eig' => 'Eigler',
+        'Ham' => 'Hammermeister',
+        'Fin' => 'Findeißen',
+        'Hof' => 'Hofmann',
+        'Rü' => 'Rülke',
+        'Kur' => 'Kurschat',
+        'Kfm' => 'Kaufmann',
+        'Schu' => 'Schulz',
+        'Schr' => 'Schröter',
+        'Hei' => 'Heider',
+        'Dam' => 'Damm',
+        'Schi' => 'Schiller',
+        'Heß' => 'Heß',
+        'Erl' => 'Erler',
+        'Win' => 'Windisch',
+        'Geor' => 'Georgi',
+        'Bru' => 'Brutcher-Reinhardt',
+        'Gra' => 'Gramsch',
+        'Schm' => 'Schmiedel',
+        'Hel' => 'Helm',
+        'Sig' => 'Siegert',
+        'Sta' => 'Stavenow',
+        'Man' => 'Mann'
+    );
+
     // Icon Information
     protected $infoIcon = '<img src="warning-3-24.png">';
 
@@ -460,7 +492,11 @@ class lesenStundenplan
      */
     protected function ermittelnLehrer($lehrer)
     {
+        $lehrer = (string) $lehrer;
 
-        return $lehrer;
+        if(array_key_exists($lehrer, $this->lehrer))
+            return $this->lehrer[$lehrer];
+        else
+            return $lehrer;
     }
 }
