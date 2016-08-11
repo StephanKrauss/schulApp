@@ -2,50 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04966a7-6220-4e6d-9ea0-9e06a4e9c491" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stundenplan/css/main.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_schule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_schule_mini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stundenplan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/twitter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/warning-3-24.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/jquery-1.11.3.js" afterPath="$PROJECT_DIR$/stundenplan/jquery/jquery-1.11.3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/App Inventor.jpg" afterPath="$PROJECT_DIR$/stundenplan/layout/App Inventor.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/feature_graphics.png" afterPath="$PROJECT_DIR$/stundenplan/layout/feature_graphics.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/feature_graphics.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/feature_graphics.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/feature_graphics_schule.png" afterPath="$PROJECT_DIR$/stundenplan/layout/feature_graphics_schule.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/icon.png" afterPath="$PROJECT_DIR$/stundenplan/layout/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/icon.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/icon.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/icon_schule_twitter.png" afterPath="$PROJECT_DIR$/stundenplan/layout/icon_schule_twitter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/logo_statistik.png" afterPath="$PROJECT_DIR$/stundenplan/layout/logo_statistik.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/logo_statistik.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/logo_statistik.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild1.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild2.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild3.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild4.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/sonne.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/sonne.xcf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/statistik.png" afterPath="$PROJECT_DIR$/stundenplan/layout/statistik.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plaene/tplan-2016-08-08.xml" afterPath="$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="twitter.iws" />
@@ -67,49 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stundenplan/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stundenplan.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stundenplan/stundenplan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
-              <folding>
-                <marker date="1470925784841" expanded="true" signature="3862:3868" ph="ü" />
-                <marker date="1470925784841" expanded="true" signature="4928:4945" ph="..." />
-                <marker date="1470925784841" expanded="true" signature="5320:5360" ph="..." />
-                <marker date="1470925784841" expanded="true" signature="5478:5517" ph="..." />
-                <marker date="1470925784841" expanded="true" signature="5532:5538" ph=" " />
-                <marker date="1470925784841" expanded="true" signature="5724:5763" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -141,9 +60,9 @@
         <option value="$PROJECT_DIR$/test1.html" />
         <option value="$PROJECT_DIR$/test2.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/stundenplan/index.php" />
         <option value="$PROJECT_DIR$/stundenplan/stundenplan.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -156,6 +75,7 @@
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="112b52d1-2760-4e91-a4f2-e0bab5e41bee" name="localhost" />
+      <server host="vertretungsplan.schule.de" id="352ffd86-2af0-4b83-9a63-09ec712c8397" name="vertretungsplan.schule.de" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
@@ -165,10 +85,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1288" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -342,34 +262,34 @@
       <workItem from="1470898383245" duration="674000" />
       <workItem from="1470900031164" duration="122000" />
       <workItem from="1470900324090" duration="8840000" />
-      <workItem from="1470924133266" duration="1656000" />
+      <workItem from="1470924133266" duration="5893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57571000" />
+    <option name="totallyTimeSpent" value="61808000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2985437" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14072494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2541806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2541806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -404,7 +324,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="72" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -637,22 +557,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.html" />
     <entry file="file://$PROJECT_DIR$/test1.html" />
-    <entry file="file://$PROJECT_DIR$/stundenplan/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -663,7 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stundenplan/stundenplan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="1760">
           <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
           <folding>
             <marker date="1470925784841" expanded="true" signature="3862:3868" ph="ü" />
@@ -673,6 +577,22 @@
             <marker date="1470925784841" expanded="true" signature="5532:5538" ph=" " />
             <marker date="1470925784841" expanded="true" signature="5724:5763" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stundenplan/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

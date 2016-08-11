@@ -1,3 +1,9 @@
+<?php
+if($_POST){
+    if( ($_POST['benutzer'] == 'lehrer') and ($_POST['kennung'] == 'kt3p4u') )
+        header('Location: stundenplan/index.php');
+}
+?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -24,9 +30,36 @@
     <![endif]-->
 </head>
 <body>
+    <div class="container">
 
-    <img src="stundenplan/icon_schule_mini.png">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-8 col-md-offset-4 col-sm-offset-4 col-xs-offset-4">
+                <img src="stundenplan/icon_schule_mini.png">
+            </div>
+        </div>
+        <div class="row">
+            <form class="form-horizontal" method="post" action="index.php">
+                <div class="form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-3 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 control-label" for="benutzer">Benutzer:</label>
+                    <div class="col-md-4 col-sm-4 col-xs-7">
+                        <input placeholder="Benutzerkennung" class="form-control" name="benutzer" id="benutzer" type="text" required pattern="[A-Za-z0-9]{3,10}">
+                    </div>
+                </div>
 
+                <div class="form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-3 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 control-label" for="kennung">Passwort:</label>
+                    <div class="col-md-4 col-sm-4 col-xs-7">
+                        <input placeholder="Passwort" class="form-control" type="password" name="kennung" id="kennung" required pattern="[A-Za-z0-9]{3,10}">
+                    </div>
+                </div>
 
+                <div class="form-group">
+                    <div class="col-md-4 col-sm-4 col-xs-8 col-md-offset-4 col-sm-offset-4 col-xs-offset-4">
+                        <button class="btn btn-success" name="senden">anmelden</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
