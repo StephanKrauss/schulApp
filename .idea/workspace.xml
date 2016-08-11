@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04966a7-6220-4e6d-9ea0-9e06a4e9c491" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stundenplan/css/main.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_schule.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon_schule_mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stundenplan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/twitter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/warning-3-24.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/css/bootstrap.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/stundenplan/bootstrap/js/npm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/jquery-1.11.3.js" afterPath="$PROJECT_DIR$/stundenplan/jquery/jquery-1.11.3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/App Inventor.jpg" afterPath="$PROJECT_DIR$/stundenplan/layout/App Inventor.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/feature_graphics.png" afterPath="$PROJECT_DIR$/stundenplan/layout/feature_graphics.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/feature_graphics.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/feature_graphics.xcf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/feature_graphics_schule.png" afterPath="$PROJECT_DIR$/stundenplan/layout/feature_graphics_schule.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/icon.png" afterPath="$PROJECT_DIR$/stundenplan/layout/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/icon.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/icon.xcf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/icon_schule_twitter.png" afterPath="$PROJECT_DIR$/stundenplan/layout/icon_schule_twitter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/logo_statistik.png" afterPath="$PROJECT_DIR$/stundenplan/layout/logo_statistik.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/logo_statistik.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/logo_statistik.xcf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild1.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild2.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild3.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/screenshot/bild4.png" afterPath="$PROJECT_DIR$/stundenplan/layout/screenshot/bild4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/sonne.xcf" afterPath="$PROJECT_DIR$/stundenplan/layout/sonne.xcf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/statistik.png" afterPath="$PROJECT_DIR$/stundenplan/layout/statistik.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plaene/tplan-2016-08-08.xml" afterPath="$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -24,7 +66,55 @@
     <favorites_list name="twitter" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stundenplan/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stundenplan.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stundenplan/stundenplan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+              <folding>
+                <marker date="1470925784841" expanded="true" signature="3862:3868" ph="ü" />
+                <marker date="1470925784841" expanded="true" signature="4928:4945" ph="..." />
+                <marker date="1470925784841" expanded="true" signature="5320:5360" ph="..." />
+                <marker date="1470925784841" expanded="true" signature="5478:5517" ph="..." />
+                <marker date="1470925784841" expanded="true" signature="5532:5538" ph=" " />
+                <marker date="1470925784841" expanded="true" signature="5724:5763" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,10 +138,12 @@
         <option value="$PROJECT_DIR$/../twitter/schueler.php" />
         <option value="$PROJECT_DIR$/../twitter/stundenplan.php" />
         <option value="$PROJECT_DIR$/../twitter/index.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test1.html" />
         <option value="$PROJECT_DIR$/test2.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/stundenplan/index.php" />
+        <option value="$PROJECT_DIR$/stundenplan/stundenplan.php" />
       </list>
     </option>
   </component>
@@ -73,10 +165,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1288" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -103,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,13 +224,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="stundenplan" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -154,6 +246,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\schulApp\stundenplan" />
+      <recent name="C:\xampp1\htdocs\schulApp" />
       <recent name="C:\xampp1\htdocs\twitter" />
     </key>
   </component>
@@ -248,17 +342,18 @@
       <workItem from="1470898383245" duration="674000" />
       <workItem from="1470900031164" duration="122000" />
       <workItem from="1470900324090" duration="8840000" />
+      <workItem from="1470924133266" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55915000" />
+    <option name="totallyTimeSpent" value="57571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2985437" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -318,7 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -330,7 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86241">
           <caret line="5073" column="4" selection-start-line="5073" selection-start-column="4" selection-end-line="5073" selection-end-column="4" />
@@ -341,11 +435,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86241">
           <caret line="5073" column="4" selection-start-line="5073" selection-start-column="4" selection-end-line="5073" selection-end-column="4" />
@@ -356,11 +449,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86241">
           <caret line="5073" column="4" selection-start-line="5073" selection-start-column="4" selection-end-line="5073" selection-end-column="4" />
@@ -371,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -379,15 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1470821518555" expanded="true" signature="3862:3868" ph="ü" />
-            <marker date="1470821518555" expanded="true" signature="4337:4364" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="4928:4945" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="5320:5360" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="5478:5517" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="5532:5538" ph=" " />
-            <marker date="1470821518555" expanded="true" signature="5724:5763" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,7 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="14" />
@@ -416,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -434,7 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="14" />
@@ -445,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="14" />
@@ -474,11 +554,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="14" />
@@ -538,19 +617,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="229" column="101" selection-start-line="229" selection-start-column="101" selection-end-line="229" selection-end-column="101" />
-          <folding>
-            <marker date="1470821518555" expanded="true" signature="3862:3868" ph="ü" />
-            <marker date="1470821518555" expanded="true" signature="4337:4364" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="4928:4945" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="5320:5360" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="5478:5517" ph="..." />
-            <marker date="1470821518555" expanded="true" signature="5532:5538" ph=" " />
-            <marker date="1470821518555" expanded="true" signature="5724:5763" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plaene/tplan-2016-08-08.xml">
+    <entry file="file://$PROJECT_DIR$/stundenplan/plaene/tplan-2016-08-08.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86139">
           <caret line="5073" column="4" selection-start-line="5073" selection-start-column="4" selection-end-line="5073" selection-end-column="4" />
@@ -565,35 +635,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/test2.html" />
+    <entry file="file://$PROJECT_DIR$/test1.html" />
+    <entry file="file://$PROJECT_DIR$/stundenplan/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="43" column="102" selection-start-line="43" selection-start-column="102" selection-end-line="43" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="102" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stundenplan/stundenplan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <marker date="1470925784841" expanded="true" signature="3862:3868" ph="ü" />
+            <marker date="1470925784841" expanded="true" signature="4928:4945" ph="..." />
+            <marker date="1470925784841" expanded="true" signature="5320:5360" ph="..." />
+            <marker date="1470925784841" expanded="true" signature="5478:5517" ph="..." />
+            <marker date="1470925784841" expanded="true" signature="5532:5538" ph=" " />
+            <marker date="1470925784841" expanded="true" signature="5724:5763" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
