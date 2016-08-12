@@ -261,9 +261,9 @@ class lesenStundenplan
     /**
      * erstellt den Inhalt der Tabellen
      */
-    protected function tabelleErstellen()
+    protected function tabelleErstellen($klKurz)
     {
-        $tabelle = '<table cellpadding="5" style="min-width: 400px;">';
+        $tabelle = '<div id="'.$klKurz.'"><table cellpadding="5" style="min-width: 400px;">';
 
         $zeile = 0;
         for($j=0; $j < 10; $j++) {
@@ -286,7 +286,10 @@ class lesenStundenplan
         }
 
         $tabelle .= '</table><br>';
-        $tabelle .= '<a href="#top" style="text-decoration: none; color: #000000;;" class="navigation"> >> nach oben << </a>';
+
+                $tabelle .= '<a href="#top" style="text-decoration: none; color: #000000;" class="navigation"> >> nach oben << </a>  &nbsp; ';
+                $tabelle .= '<input type="button" value=">> drucken <<" onclick="printDiv(\''.$klKurz.'\')" class="navigation hidden-sm hidden-xs">';
+        $tabelle .= '</div>';
 
         $this->tabelle .= $tabelle;
 

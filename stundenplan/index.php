@@ -23,6 +23,12 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respo\16 nd.min.js"></script>
     <![endif]-->
 
+    <script type="text/javascript">
+        function printDiv($klasse){
+
+        }
+    </script>
+
     <style>
         a {
             text-decoration: none;
