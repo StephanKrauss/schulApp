@@ -244,7 +244,7 @@ class lesenStundenplan
                 $stundenplan = simplexml_load_string($reader->readOuterXml());
 
                 // Überschrift
-                $this->tabelle .= '<h3 style="text-decoration: underline;" id="'.$stundenplan->kl_kurz.'">Klasse: '.$stundenplan->kl_kurz.'</h3>';
+                $this->tabelle .= '<h3 style="text-decoration: underline;">Klasse: '.$stundenplan->kl_kurz.'</h3>';
 
                 // Zeiten der Klasse
                 $this->ermittelnZeitenDerKlasse($stundenplan);
@@ -263,7 +263,7 @@ class lesenStundenplan
      */
     protected function tabelleErstellen($klKurz)
     {
-        $tabelle = '<div id="'.$klKurz.'"><table cellpadding="5" style="min-width: 400px;">';
+        $tabelle = '<table cellpadding="5" style="min-width: 400px;" id="'.$klKurz.'">';
 
         $zeile = 0;
         for($j=0; $j < 10; $j++) {
@@ -287,9 +287,8 @@ class lesenStundenplan
 
         $tabelle .= '</table><br>';
 
-                $tabelle .= '<a href="#top" style="text-decoration: none; color: #000000;" class="navigation"> >> nach oben << </a>  &nbsp; ';
-                $tabelle .= '<input type="button" value=">> drucken <<" onclick="printDiv(\''.$klKurz.'\')" class="navigation hidden-sm hidden-xs">';
-        $tabelle .= '</div>';
+        $tabelle .= '<a href="#top" style="text-decoration: none; color: #000000;" class="navigation"> >> nach oben << </a>  &nbsp; ';
+        // $tabelle .= '<input type="button" value=">> drucken <<" onclick="printDiv(\''.$klKurz.'\')" class="navigation hidden-sm hidden-xs">';
 
         $this->tabelle .= $tabelle;
 
