@@ -244,7 +244,7 @@ class lesenStundenplan
                 $stundenplan = simplexml_load_string($reader->readOuterXml());
 
                 // Überschrift
-                $this->tabelle .= '<h3 style="text-decoration: underline;">Klasse: '.$stundenplan->kl_kurz.'</h3>';
+                $this->tabelle .= '<h3 style="text-decoration: underline;" id="'.$stundenplan->kl_kurz.'">Klasse: '.$stundenplan->kl_kurz.'</h3>';
 
                 // Zeiten der Klasse
                 $this->ermittelnZeitenDerKlasse($stundenplan);
@@ -263,7 +263,7 @@ class lesenStundenplan
      */
     protected function tabelleErstellen($klKurz)
     {
-        $tabelle = '<table cellpadding="5" style="min-width: 400px;" id="'.$klKurz.'">';
+        $tabelle = '<table class="table table-bordered">';
 
         $zeile = 0;
         for($j=0; $j < 10; $j++) {

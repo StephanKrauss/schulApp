@@ -38,9 +38,3 @@ a {
     text-decoration: none;
     color: black;
 }
-
-@media print {
-    table{
-        width: 600px;
-    }
-}

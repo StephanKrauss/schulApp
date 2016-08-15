@@ -27,8 +27,6 @@
 </head>
 <body>
 
-
-
 <div id="container">
 
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -42,8 +40,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                 </button>
             </div>
 
@@ -51,7 +47,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Stundenpläne</a></li>
-                    <li><a href="termine.html">Termin</a></li>
+                    <li><a href="termine.html">Termine</a></li>
                     <li><a href="twitter.html">Kurzinformation</a></li>
                     <li><a href="speiseplan.html">Speiseplan</a></li>
                     <li><a href="bilder.html">Bilder</a></li>
@@ -62,15 +58,15 @@
     </nav>
 
     <div class="row">
-        <div class="col-md-11 col-sm-11 col-xs-11 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
+        <div class="col-md-8 col-sm-8 col-xs-11 col-xs-offset-1 col-md-offset-1 col-sm-offset-1">
             <img src="icon_schule_mini.png">
         </div>
     </div>
 
 
     <div class="row">
-        <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
-            <table  style="min-width: 400px;" cellpadding="5" id="navigation">
+        <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-1 col-sm-offset-1">
+            <table id="navigation" class="col-md-8 col-sm-8 col-xs-12">
                 <tr>
                     <td class="navigation"><a href="#5a"><div> 5a </div></a></td>
                     <td class="navigation"><a href="#5b"><div> 5b </div></a></td>
@@ -90,7 +86,9 @@
                     <td class="navigation"><a href="#10b"><div>10b</div></a></td>
                 </tr>
             </table>
+        </div>
 
+        <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-1 col-sm-offset-1">
             <?php
             include_once('stundenplan.php');
 
