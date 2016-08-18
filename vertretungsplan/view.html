@@ -1,0 +1,22 @@
+<table class="table table-bordered table-striped table-condensed">
+    <tr><th>Tag: </th><td colspan="4">{#kopf[titel]}</td></tr>
+    <tr><th>Änderung für Klassen: </th><td colspan="4">{#kopf[kopfinfo][aenderungk]}</td></tr>
+    <tr>
+        <th> Stunde </th>
+        <th> Klasse </th>
+        <th> Fach </th>
+        <th> Raum </th>
+        <th> Information </th>
+    </tr>
+    {if #stunden}
+        [#stunden]
+            <tr>
+                <td>{#stunde}</td>
+                <td>{#klasse}</td>
+                <td>{#fach}</td>
+                <td>{#raum}</td>
+                <td>{#info}</td>
+            </tr>
+        [/#stunden]
+    {/if}
+</table>
