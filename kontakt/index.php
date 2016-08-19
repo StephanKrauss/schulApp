@@ -30,36 +30,19 @@
 
 <div id="container">
 
-    <nav class="navbar navbar-default navbar-static-top hidden-lg hidden-md hidden-sm visible-xs" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    Oberschule Bergstadt Schneeberg
-                </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+    <?php
+    include_once('../_src/templateEngine/Engine.php');
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="../app.html">Kurznachrichten</a></li>
-                    <li><a href="../stundenplan/app.php">Stundenpläne</a></li>
-                    <li><a href="../aenderungsplan/app.php">Änderungspläne</a></li>
-                    <li><a href="../vertretungsplan/app.php">Vertretungspläne</a></li>
-                    <li><a href="../kollegenplan/app.html">Kollegenplan</a></li>
-                    <li><a href="../termine/app.html">Termine</a></li>
-                    <li><a href="../speiseplan/app.html">Speiseplan</a></li>
-                    <li><a href="../bilder/app.html">Bilder</a></li>
-                    <li class="active"><a href="app.html">Kontakt</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    $variables = array(
+        'navigation' => array(
+            'kontakt' => 'active'
+        )
+    );
+
+    $engine = new SimpleTemplate\Engine($variables);
+    $engine->loadTemplate(false,"../navigation.html");
+    echo $engine->getOutput();
+    ?>
 
     <div class="row">
         <div class="col-md-11 col-sm-11 col-xs-11 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">

@@ -28,36 +28,20 @@
 
 <div id="container">
 
-    <nav class="navbar navbar-default navbar-static-top hidden-lg hidden-md hidden-sm visible-xs" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    Oberschule Bergstadt Schneeberg
-                </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+    <?php
+    include_once('../_src/templateEngine/Engine.php');
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="../app.html">Kurznachrichten</a></li>
-                    <li><a href="app.php">Stundenpläne</a></li>
-                    <li class="active"><a href="app.php">Änderungspläne</a></li>
-                    <li><a href="../vertretungsplan/app.php">Vertretungspläne</a></li>
-                    <li><a href="../kollegenplan/app.html">Kollegenplan</a></li>
-                    <li><a href="../termine/app.html">Termine</a></li>
-                    <li><a href="../speiseplan/app.html">Speiseplan</a></li>
-                    <li><a href="../bilder/app.html">Bilder</a></li>
-                    <li><a href="../kontakt/app.html">Kontakt</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    $variables = array(
+        'navigation' => array(
+            'aenderungsplan' => 'active'
+        )
+    );
+
+    $engine = new SimpleTemplate\Engine($variables);
+    $engine->loadTemplate(false,"../navigation.html");
+    echo $engine->getOutput();
+    ?>
+
 
     <div class="row">
         <div class="col-md-8 col-sm-8 col-xs-11 col-xs-offset-1 col-md-offset-1 col-sm-offset-1">
@@ -68,6 +52,7 @@
 
     <div class="row">
         <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-1 col-sm-offset-1">
+
             <table id="navigation" class="col-md-8 col-sm-8 col-xs-12">
                 <tr>
                     <td class="navigation"><a href="#5a"><div> 5a </div></a></td>

@@ -20,13 +20,15 @@ class Engine {
 	/** @var Parser */
 	private $parser;
 
-	/**
-	 * Construct method.
-	 * @param array
-	 */
-	public function __construct($params){
+    /**
+     * Engine constructor.
+     * @param bool $params
+     */
+	public function __construct($params = false){
 		$this->parser = new Parser();
-		$this->parser->setParams($params);
+
+        if(is_array($params))
+		    $this->parser->setParams($params);
 	}
 
 	/**
@@ -41,12 +43,30 @@ class Engine {
 	 * Load template from file.
 	 * @param string file name
 	 */
-	public function loadTemplate($name){
-		if(file_exists($name)){
-			$content = file_get_contents($name);
-			$this->parser->setContent($content);
-		}
-		else throw new Exception("File '$name' not found.");
+	public function loadTemplate($name = false, $navigation = false)
+    {
+        $content = '';
+
+	    if($navigation){
+	        if(file_exists($navigation)){
+                $content .= file_get_contents($navigation);
+            }
+            else
+                throw new Exception("Navigation: '$navigation' nicht gefunden.");
+        }
+
+
+        if($name){
+            if(file_exists($name)){
+                $content .= file_get_contents($name);
+
+            }
+            else
+                throw new Exception("Templat: '$name' nicht gefunden.");
+        }
+		
+
+        $this->parser->setContent($content);
 	}
 
 	/**

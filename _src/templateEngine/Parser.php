@@ -153,7 +153,10 @@ class Parser {
 			if(!empty($dimensions)){
 				$contentObject = $this->templateParamsTmp[$contentName];
 				foreach($dimensions AS $idx => $dimension){
-					$contentObject = $contentObject[$dimension];
+				    if(array_key_exists($dimension, $contentObject))
+					    $contentObject = $contentObject[$dimension];
+                    else
+                        $contentObject = '';
 				}
 			}
 			else $contentObject = $this->templateParamsTmp[$contentName];
