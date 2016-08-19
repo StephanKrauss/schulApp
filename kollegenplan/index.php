@@ -13,7 +13,7 @@
     <!-- CSS -->
     <link href="/_public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/_public/bootstrap/css/theme.min.css" rel="stylesheet">
-    <link href="/_public/public/css/main.css" rel="stylesheet">
+    <link href="/_public/css/main.css" rel="stylesheet">
 
     <!-- Javascript -->
     <script type="text/javascript" src="/_public/jquery/jquery-1.11.3.js"></script>

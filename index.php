@@ -13,7 +13,7 @@
     <!-- CSS -->
     <link href="/_public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/_public/bootstrap/css/theme.min.css" rel="stylesheet">
-    <link href="/_public/public/css/main.css" rel="stylesheet">
+    <link href="/_public/css/main.css" rel="stylesheet">
 
     <!-- Javascript -->
     <script type="text/javascript" src="/_public/jquery/jquery-1.11.3.js"></script>
@@ -31,14 +31,8 @@
 
 <div id="container">
 
-    <div class="row">
-        <div class="col-md-11 col-sm-11 col-xs-11 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
-            <img src="_public/image/icon_schule_mini.png">
-        </div>
-    </div>
-
     <?php
-        include_once('/_src/templateEngine/Engine.php');
+        include_once('_src/templateEngine/Engine.php');
 
         $variables = array(
             'navigation' => array(
@@ -57,6 +51,11 @@
         }
     ?>
 
+    <div class="row">
+        <div class="col-md-11 col-sm-11 col-xs-11 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
+            <img src="_public/image/icon_schule_mini.png">
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" id="twitter-wjs">
