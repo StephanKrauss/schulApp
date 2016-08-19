@@ -46,6 +46,12 @@
         $engine->loadTemplate(false,"../navigation.html");
         echo $engine->getOutput();
     }
+
+    if($host[0] == 'plus') {
+        $engine = new SimpleTemplate\Engine($variables);
+        $engine->loadTemplate(false,"../plus.html");
+        echo $engine->getOutput();
+    }
     ?>
 
 
