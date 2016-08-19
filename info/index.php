@@ -40,9 +40,15 @@
         )
     );
 
-    $engine = new SimpleTemplate\Engine($variables);
-    $engine->loadTemplate(false,"../navigation.html");
-    echo $engine->getOutput();
+    $url = $_SERVER['SERVER_NAME'];
+    $parsedUrl = parse_url($url);
+    $host = explode('.', $parsedUrl['path']);
+
+    if($host[0] == 'm'){
+        $engine = new SimpleTemplate\Engine($variables);
+        $engine->loadTemplate(false,"../navigation.html");
+        echo $engine->getOutput();
+    }
     ?>
 
     <div class="row">
