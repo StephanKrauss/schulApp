@@ -1,5 +1,7 @@
 ### WebApp der Oberschule Bergstadt Schneeberg
 
+![](http://test.stephankrauss.de/icon_schule.png)
+
 Diese WebApp kommt auf Android-Handys zum Einsatz.  
 Darstellung der Stundenpläne und Vertretungspläne einer Schule auf dem Smartphone  
 und in der Homepage der Schule.

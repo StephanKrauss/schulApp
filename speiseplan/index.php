@@ -35,7 +35,7 @@
 
     $variables = array(
         'navigation' => array(
-            'kontakt' => 'active'
+            'speiseplan' => 'active'
         )
     );
 

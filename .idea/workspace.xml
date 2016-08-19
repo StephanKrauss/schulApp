@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04966a7-6220-4e6d-9ea0-9e06a4e9c491" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/0fd501377ecc8ef479cf08a87088fddf.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/15d95e24be3f3b7f86a514d8f0921a8d.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/1b790ec6ba6ea18db6d42d4b46c0a34e.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/293b145761db5e2dfa8a47721fe3c254.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/53f5f88caf04a5cd95d01651cdcf300e.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5d4e47ecaf39b4c0bbe56c19b7575bef.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/7a3baa8fed9e21ea83eed6c76c66602a.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/aa65d75e12fd22c079930e898a3ea54a.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d5214f0f6d3e27788cea692df6cc76b5.cache.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/fbf31e6fe0cb9e49878bcf7516cb9c83.cache.tpl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aenderungsplan/index.php" afterPath="$PROJECT_DIR$/aenderungsplan/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilder/index.php" afterPath="$PROJECT_DIR$/bilder/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/index.php" afterPath="$PROJECT_DIR$/info/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kollegenplan/index.php" afterPath="$PROJECT_DIR$/kollegenplan/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakt/index.php" afterPath="$PROJECT_DIR$/kontakt/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speiseplan/index.php" afterPath="$PROJECT_DIR$/speiseplan/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stundenplan/index.php" afterPath="$PROJECT_DIR$/stundenplan/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/termine/index.php" afterPath="$PROJECT_DIR$/termine/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vertretungsplan/index.php" afterPath="$PROJECT_DIR$/vertretungsplan/index.php" />
     </list>
     <ignored path="twitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,108 +24,7 @@
     <favorites_list name="twitter" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aenderungsplan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bilder/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kollegenplan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kontakt/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/speiseplan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/termine/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vertretungsplan/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,7 +76,6 @@
         <option value="$PROJECT_DIR$/_src/templateEngine/readme.md" />
         <option value="$PROJECT_DIR$/kollegenplan/index.html" />
         <option value="$PROJECT_DIR$/bilder/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/info/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_src/templateEngine/Engine.php" />
@@ -207,10 +87,11 @@
         <option value="$PROJECT_DIR$/info/index.php" />
         <option value="$PROJECT_DIR$/kollegenplan/index.php" />
         <option value="$PROJECT_DIR$/kontakt/index.php" />
-        <option value="$PROJECT_DIR$/speiseplan/index.php" />
         <option value="$PROJECT_DIR$/stundenplan/index.php" />
         <option value="$PROJECT_DIR$/termine/index.php" />
         <option value="$PROJECT_DIR$/vertretungsplan/index.php" />
+        <option value="$PROJECT_DIR$/speiseplan/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -265,8 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -547,34 +428,35 @@
       <workItem from="1471522389308" duration="10000" />
       <workItem from="1471524892024" duration="10277000" />
       <workItem from="1471539795441" duration="3446000" />
-      <workItem from="1471583395581" duration="7944000" />
+      <workItem from="1471583395581" duration="8279000" />
+      <workItem from="1471602845297" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111255000" />
+    <option name="totallyTimeSpent" value="112186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14072494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2541806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2541806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -691,15 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="80" column="9" selection-start-line="49" selection-start-column="8" selection-end-line="80" selection-end-column="9" />
-          <folding>
-            <marker date="1471529975787" expanded="true" signature="1204:1210" ph="ü" />
-            <marker date="1471529975787" expanded="true" signature="1679:1706" ph="..." />
-            <marker date="1471529975787" expanded="true" signature="2656:2696" ph="..." />
-            <marker date="1471529975787" expanded="true" signature="2814:2853" ph="..." />
-            <marker date="1471529975787" expanded="true" signature="2868:2874" ph=" " />
-            <marker date="1471529975787" expanded="true" signature="3061:3099" ph="..." />
-            <marker date="1471529975787" expanded="true" signature="3143:3149" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,13 +593,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_src/template.php" />
-    <entry file="file://$PROJECT_DIR$/_src/templateEngine/Cache/2a6f88c36eaa0cc2d98634322eee1c6c.cache.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/templateEngine/Cache/2a6f88c36eaa0cc2d98634322eee1c6c.cache.tpl" />
     <entry file="file://$PROJECT_DIR$/vertretungsplan/templat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -741,35 +608,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_src/templateEngine/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-            <folding>
-              <marker date="1471543127787" expanded="true" signature="714:1104" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="721:902" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="909:1096" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="931:1081" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="952:1059" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="1142:1518" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="1149:1309" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="1316:1510" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="1322:1502" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="1329:1407" ph="..." />
-              <marker date="1471543127787" expanded="true" signature="1414:1495" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -779,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="158" column="40" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="884">
           <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding />
         </state>
@@ -809,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aenderungsplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="731">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding />
         </state>
@@ -817,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bilder/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="765">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
@@ -825,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="782">
           <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
@@ -833,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kollegenplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="765">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
@@ -841,15 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kontakt/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/speiseplan/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="765">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
@@ -857,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="731">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding />
         </state>
@@ -865,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/termine/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="765">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
@@ -873,9 +706,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vertretungsplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="17">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speiseplan/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
