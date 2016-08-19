@@ -65,7 +65,7 @@
     <div class="row">
         <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
             <p>
-                <h3>Schul App - Oberschule Bergstadt Schneeberg, Vers.: 0.3</h3>
+                <h3>Schul App - Oberschule Bergstadt Schneeberg, Vers.: 0.7</h3>
                 Entwickelt von Stephan Krauß<br>
                 info@stephankrauss.de<br>
                 <a href="http://www.stephankrauss.de">www.stephankrauss.de</a>
