@@ -1,0 +1,40 @@
+/** Offset einer Row nach oben **/
+@media (min-width: 992px) {
+    .voffset1 { margin-top: 30px; }
+    .voffset2 { margin-top: 60px; }
+    .voffset3 { margin-top: 90px; }
+    .voffset4 { margin-top: 120px; }
+    .voffset5 { margin-top: 150px; }
+}
+
+@media (max-width: 990px) {
+    .voffset1 { margin-top: 20px; }
+    .voffset2 { margin-top: 40px; }
+    .voffset3 { margin-top: 60px; }
+    .voffset4 { margin-top: 80px; }
+    .voffset5 { margin-top: 100px; }
+}
+
+@media (max-width: 768px) {
+    .voffset1 { margin-top: 10px; }
+    .voffset2 { margin-top: 20px; }
+    .voffset3 { margin-top: 30px; }
+    .voffset4 { margin-top: 40px; }
+    .voffset5 { margin-top: 50px; }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation{
+    border: 1px solid #e6e6e6; padding: 3px;
+    background-color: #b3e0ff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

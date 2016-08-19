@@ -1,16 +1,43 @@
-### Smartphone App der Oberschule Bergstadt Schneeberg.
+### WebApp der Oberschule Bergstadt Schneeberg
 
-Diese App kommt auf Android-Handys zum Einsatz.
-Web-App für das Smartphone.
+![](http://test.stephankrauss.de/icon_schule.png)
+
+Diese WebApp kommt auf Android-Handys zum Einsatz.  
+Darstellung der Stundenpläne und Vertretungspläne einer Schule auf dem Smartphone  
+und in der Homepage der Schule.
+
+#### erledigt:
 
 + Version 0.1:  
-	+ Darstellung des interaktiven Stundenplan
+	+ Kurznachrichten der Schule
 
 + Version 0.2:  
-	+ Anzeige der Termine des Schuljahres
+	+ interaktiver Stundenplan der Schule
 
 + Version 0.3:  
-	+ Einbindung des Twitter Meldungen der Schule
+	+ Vertretungspläne der Schule
 
 + Version 0.4:  
-	+ Bildergalerie der Schüler 
+	+ Jahresterminplan der Schule 
+	
++ Version 0.5:
+	+ Kontaktseite mit Telefonanbindung
+	
++ Version 0.6: 
+	+ <a href="https://play.google.com/store/search?q=Oberschule&hl=de" target='_blank'>WebApp für den Google Play Store</a>
+
++ Version 0.7:	
+    + Änderungsplan der Schule mit Markierung der Veränderungen	
+	
+#### in Arbeit:
+
++ Speiseplan
++ Bildergalerie	
++ Kollegenplan
+
+#### strategische Ausrichtung
++ erstellen einer Template Engine speziell für WebApps
++ umschreiben eines ORM für die Anbindung an relationale Datenbanken
++ erstellen eines Verfahren für die Einbindung der WebApp in eine Homepage ( Wordpress )
++ erstellen eines Plus - Angebotes für die Homepage
++ erstellen einer WebApp für Android Smartphone

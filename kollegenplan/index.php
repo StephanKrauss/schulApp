@@ -23,7 +23,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/htm\14 l5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respo\16 nd.min.js"></script>
     <![endif]-->
-
 </head>
 <body>
 
@@ -31,36 +30,36 @@
 
 <div id="container">
 
+    <?php
+    include_once('../_src/templateEngine/Engine.php');
+
+    $variables = array(
+        'navigation' => array(
+            'kollegenplan' => 'active'
+        )
+    );
+
+    $url = $_SERVER['SERVER_NAME'];
+    $parsedUrl = parse_url($url);
+    $host = explode('.', $parsedUrl['path']);
+
+    if($host[0] == 'm'){
+        $engine = new SimpleTemplate\Engine($variables);
+        $engine->loadTemplate(false,"../navigation.html");
+        echo $engine->getOutput();
+    }
+    ?>
+
     <div class="row">
         <div class="col-md-11 col-sm-11 col-xs-11 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
-            <img src="_public/image/icon_schule_mini.png">
+            <img src="../_public/image/icon_schule_mini.png">
         </div>
     </div>
 
-    <?php
-        include_once('/_src/templateEngine/Engine.php');
-
-        $variables = array(
-            'navigation' => array(
-                'twitter' => 'active'
-            )
-        );
-
-        $url = $_SERVER['SERVER_NAME'];
-        $parsedUrl = parse_url($url);
-        $host = explode('.', $parsedUrl['path']);
-
-        if($host[0] == 'm'){
-            $engine = new SimpleTemplate\Engine($variables);
-            $engine->loadTemplate(false,"./navigation.html");
-            echo $engine->getOutput();
-        }
-    ?>
-
 
     <div class="row">
-        <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" id="twitter-wjs">
-            <a class="twitter-timeline" href="https://twitter.com/OBSchneeberg">Tweets der Oberschule Bergstadt Schneeberg</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+            Kollegenplan
         </div>
     </div>
 </div>
