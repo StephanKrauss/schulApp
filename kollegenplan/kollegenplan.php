@@ -186,7 +186,24 @@ class kollegenplan extends standard
 
             $elemente = (array) $stunde->children();
 
-            $this->stundenplan[$elemente['pl_tag']][$elemente['pl_stunde']] = $elemente['pl_klasse'].'<br>'.$elemente['pl_fach'].'<br>'.$elemente['pl_raum'];
+            if(!is_array($elemente['pl_klasse'])){
+                $klassen = $elemente['pl_klasse'];
+            }
+            else{
+                $klassen = '';
+
+                for($j = 0; $j < count($elemente['pl_klasse']); $j++){
+                    $klassen .= $elemente['pl_klasse'][$j];
+
+                    if($j < (count($elemente['pl_klasse']) - 1))
+                        $klassen .= '<br>';
+                }
+            }
+
+            $fach = $elemente['pl_fach'];
+            $raum = $elemente['pl_raum'];
+
+            $this->stundenplan[$elemente['pl_stunde']][$elemente['pl_tag']] = $klassen.'<br>'.$fach.'<br>'.$raum;
         }
 
         return;

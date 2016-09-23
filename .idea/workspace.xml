@@ -2,12 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04966a7-6220-4e6d-9ea0-9e06a4e9c491" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kollegenplan/kollegenplan.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kollegenplan/kollegenplan.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/05270e36f77fc7568f0e3735b48ca245.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/07dc12fdc7085e25985bcfd863f49133.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/0a315eee1c59b6e0a3b91d7b34e48b86.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/0b5846e26fb3501caf3dfb7070dbe7d5.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/0cf00c0921ad5a4eeb97b26cf1b6d8ad.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/0fd501377ecc8ef479cf08a87088fddf.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/11c8a623ead44b32f7990a7ad1179b6a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/15d95e24be3f3b7f86a514d8f0921a8d.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/18109d941cd2a23cf46374f7892c7e90.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/1b790ec6ba6ea18db6d42d4b46c0a34e.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/2847b2e327ced1ff80bb4903c9908084.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/293b145761db5e2dfa8a47721fe3c254.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/2a296ced9538da3ad1ceacc8f8c87260.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/308b75e6b5e9853a30a09b51d07d1160.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/30a0e4992ac63c4697f37445fd41a881.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/30bac50b82cb5d4124e3ea67584b9a2e.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/379064fa24ec224572ea326162a775ad.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/37a3530451a9be209743d97d8c7280dd.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/402b4767b864e4129988e4532394e0dc.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/407476ffa41bde3188193619ce50f716.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/418d6c8ffe1103d556a97d0c56151d57.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/4c36a16736524c1c59f6efa9953111e8.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/4c3ebed055a8b655e3e0ceb8ae62de82.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5260ad5bbc4c9dd70912eadd791d7994.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5335e2c90a5ba2bae2a8a69465e8e10d.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/534bbeebea1f86f292ea7069a4d0b559.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/53f5f88caf04a5cd95d01651cdcf300e.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/54a5744599102b8c2166c9ee68e839b4.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5687f1ee0b207963dd58471faa294825.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/568b304dbfa060c59ceb55977a0e025d.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/584971e3021f25478e8cdd0d907ba035.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5d4e47ecaf39b4c0bbe56c19b7575bef.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5f6dc2b6f7341b02cb827b6e9f72d40b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/621d22c14dd61d969291d2483c8b6601.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/62742e8b8a2a94c582376a2111234c21.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/68cbb72b9093b902d446087570b6d547.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/79332f7d7eb009de167243899766f6a4.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/7a1fc163534381297793e9006d17c401.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/7a3baa8fed9e21ea83eed6c76c66602a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/8103f349be99ff0cd2ff9ffcbd2a39a8.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/81df5ca767270eb51cec32f8641a0b78.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/889c7dae5a2c31372263c494ae48b322.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/8d0d4f244ddc39b9561b498b59f316b0.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/8fa74997e5ec1969f36711a818fe6169.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/926ba3f04d6d161c4cf7696e9d127244.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/92d067725c3182fa2acf0441038135be.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/9770e7caeae00225a9656365072220c8.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/99d75d36f5486efad49ee83a31056bc3.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/9cb7c459f951ae3ab818acfd09685c5e.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/9f0fba74f57fcbde9c54e6ef7bc7b792.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/9ffb080e37feb62f19973874d3fb7cb6.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/a92f015b426a7c6700acdd9743d99184.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/aa65d75e12fd22c079930e898a3ea54a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/acd40e6336596473824587751c1fb977.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/aeaedb8ffd9d1f8572e37906a70cf13a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/af66ef642cecd8784eaefdc0d0de63f4.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/b0b7a293509ee778dd7c21c838d763f2.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/b0e1fcdf4ab5587f5782ab1ad6479242.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/b597a04cc34bed94e2de81519d773a5c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/b6b80b69854a4d6ac9d0e40cba02aa25.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/b988f76f32b69228c7f2021dc6a8c03a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/bc3bfc5af9cfef23aa623d204ee7a5c0.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/bf29a0853173c01c5f2eb188c7d03e2c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/c2e518e854f74a0f667e2703b5e8d6f8.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/c4ce3cb8b55d639d30aa40c959f96dfa.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/c819b73db4560b797c02098e06196226.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/c8c0be868f83f13c7a4386b16d905218.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/ca11e7575ed1ea669b7d4d438da40aa1.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/cd71b37226149d7ebd992f937766d55c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/ce466f135102cb30f905d8376e9aaeaa.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d17bf0b26030afafceff411e3820e8a9.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d3079ccbd13cf441b290c89e85c8f260.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d4c34bf39327e8938459fd88c54fe6e9.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d5214f0f6d3e27788cea692df6cc76b5.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d865783a1d0883af2cf03ba0af61a2a1.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/d9e87c7bf478710b45998c06972ae2b4.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/daf53e901840b6fc805119535cb16c76.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/dd33616e9d0ee418f73fdbd89923c867.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/dd376329718c731c4450a069bfca134b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e01ae065cebc26d21c70fba0a0584b2a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e4f9dfe0275625836d6d592fd6d9c76e.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e5986e5319b0b9b7a7d3245b824a3a1b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e685e6e6b85acc6f76c137eeee93632a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e76861dd8db5e3f9ec9d885d7a5877e7.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e879c9f8162744bff543e81436794ea5.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/ea39a5819f4d899bc65aaab88926f6d4.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/f3bb5d53e9c566b28065e9b318d652ac.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/f57b6d1541248aea7f438c9d92656a59.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/f5d54d6aa9275b1badca1827c5261a2b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/fb7edb23d84d6709c696f5aad9078634.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/fbf31e6fe0cb9e49878bcf7516cb9c83.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/fce57cd0dba472f2df077d4545d8b93c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/fd4ac4b300eee892f3f966db99df68ba.cache.tpl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_src/standard.php" afterPath="$PROJECT_DIR$/_src/standard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_src/stundenplan.php" afterPath="$PROJECT_DIR$/_src/stundenplan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kollegenplan/index.php" afterPath="$PROJECT_DIR$/kollegenplan/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kollegenplan/kollegenplan.php" afterPath="$PROJECT_DIR$/kollegenplan/kollegenplan.php" />
     </list>
     <ignored path="twitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,17 +120,17 @@
       <file leaf-file-name="kollegenplan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kollegenplan/kollegenplan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="816">
               <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kollegenplan/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="697">
               <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
               <folding />
             </state>
@@ -51,21 +140,23 @@
       <file leaf-file-name="Parser.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_src/templateEngine/Parser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="3723">
               <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#7#68#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kollegenplan.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kollegenplan.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kollegenplan/kollegenplan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
               <folding>
-                <marker date="1474646518561" expanded="true" signature="2320:2326" ph="ü" />
-                <marker date="1474646518561" expanded="true" signature="5333:5339" ph=" " />
+                <marker date="1474649578333" expanded="true" signature="2320:2326" ph="ü" />
+                <marker date="1474649578333" expanded="true" signature="5814:5820" ph=" " />
               </folding>
             </state>
           </provider>
@@ -74,7 +165,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="1751">
               <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
               <folding />
             </state>
@@ -84,7 +175,7 @@
       <file leaf-file-name="stundenplan.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_src/stundenplan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="5185">
               <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
               <folding>
                 <marker date="1474640371600" expanded="true" signature="1207:1213" ph="ü" />
@@ -111,7 +202,7 @@
       <file leaf-file-name="standard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_src/standard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3318">
+            <state relative-caret-position="3383">
               <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
               <folding />
             </state>
@@ -211,10 +302,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1288" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -241,11 +332,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schulApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,32 +489,33 @@
       <workItem from="1471783027902" duration="265000" />
       <workItem from="1472722248952" duration="13000" />
       <workItem from="1474621840384" duration="18854000" />
+      <workItem from="1474648085697" duration="1528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135240000" />
+    <option name="totallyTimeSpent" value="136768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21359223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21338251" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27110583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27090302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -452,7 +551,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="171" />
+      <option name="time" value="182" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -618,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,13 +733,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-            <folding>
-              <marker date="1471603685531" expanded="true" signature="714:1104" ph="..." />
-              <marker date="1471603685531" expanded="true" signature="721:902" ph="..." />
-              <marker date="1471603685531" expanded="true" signature="909:1096" ph="..." />
-              <marker date="1471603685531" expanded="true" signature="931:1081" ph="..." />
-              <marker date="1471603685531" expanded="true" signature="952:1059" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -655,25 +746,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kollegenplan/tabelleKollegen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kollegenplan/tabelleKollegen.html" />
     <entry file="file://$PROJECT_DIR$/_src/templateEngine/Parser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="3723">
           <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7#68#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="1751">
           <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
           <folding />
         </state>
@@ -681,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_src/stundenplan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="5185">
           <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
           <folding>
             <marker date="1474640371600" expanded="true" signature="1207:1213" ph="ü" />
@@ -696,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kollegenplan/kollegenplan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="816">
           <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
           <folding />
         </state>
@@ -704,28 +790,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_src/standard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3318">
+        <state relative-caret-position="3383">
           <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kollegenplan/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kollegenplan/kollegenplan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
           <folding>
-            <marker date="1474646518561" expanded="true" signature="2320:2326" ph="ü" />
-            <marker date="1474646518561" expanded="true" signature="5333:5339" ph=" " />
+            <marker date="1474649578333" expanded="true" signature="2320:2326" ph="ü" />
+            <marker date="1474649578333" expanded="true" signature="5814:5820" ph=" " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kollegenplan/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
