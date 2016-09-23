@@ -179,10 +179,22 @@ class standard
         return $this;
     }
 
+    /**
+     * @param $subdomain
+     * @return $this
+     */
     public function setSubdomain($subdomain)
     {
         $this->subdomain = $subdomain;
 
         return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getLehrer()
+    {
+        return $this->lehrer;
     }
 }

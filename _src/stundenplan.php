@@ -26,7 +26,7 @@ class lesenStundenplan extends standard
     }
 
     /**
-     * erstellen der Wochentage in der ersten Zeiule Tabelle
+     * erstellen der Wochentage in der ersten Zeile der Tabelle
      */
     protected function erstellenWochentage()
     {
@@ -127,27 +127,6 @@ class lesenStundenplan extends standard
     {
         return $this->tabelle;
 
-    }
-
-    /**
-     * ermitteln der Zeiten / Stunden der Klasse
-     *
-     * @param $stundenplan
-     * @return int
-     */
-    protected function ermittelnZeitenDerKlasse($stundenplan)
-    {
-        $zeitenDerKlasse = $stundenplan->kl_stunde;
-
-        for ($i = 0; $i < $zeitenDerKlasse->count(); $i++) {
-            $attributes = (array)$stundenplan->kl_stunde[$i]->attributes();
-            $zeit = $attributes['@attributes']['kl_zeit'];
-
-            $schulstunde = $i + 1;
-
-            $this->stundenplan[0][$i + 1] = $schulstunde.'.<br>'.$zeit;
-        }
-        return $i;
     }
 
     /**
@@ -323,5 +302,26 @@ class lesenStundenplan extends standard
             return $this->lehrer[$lehrer];
         else
             return $lehrer;
+    }
+
+    /**
+     * ermitteln der Zeiten / Stunden der Klasse
+     *
+     * @param $stundenplan
+     * @return int
+     */
+    protected function ermittelnZeitenDerKlasse($stundenplan)
+    {
+        $zeitenDerKlasse = $stundenplan->kl_stunde;
+
+        for ($i = 0; $i < $zeitenDerKlasse->count(); $i++) {
+            $attributes = (array)$stundenplan->kl_stunde[$i]->attributes();
+            $zeit = $attributes['@attributes']['kl_zeit'];
+
+            $schulstunde = $i + 1;
+
+            $this->stundenplan[0][$i + 1] = $schulstunde.'.<br>'.$zeit;
+        }
+        return $i;
     }
 }

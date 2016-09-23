@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>Webapp der Oberschule Bergstadt Schneeberg</title>
+
+    <!-- CSS -->
+    <link href="/_public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/_public/bootstrap/css/theme.min.css" rel="stylesheet">
+    <link href="/_public/css/main.css" rel="stylesheet">
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="/_public/jquery/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/_public/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/htm\14 l5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respo\16 nd.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+
+<div id="container">
+    {#navigation}
+
+    <div class="row">
+        <div class="col-md-10 col-sm-10 col-xs-10 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
+            <img src="../_public/image/icon_schule_mini.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10 col-sm-10 col-xs-10 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
+            {if #lehrer}
+                <h5>Kolleginen und Kollegen</h5>
+                [#lehrer]
+                    <a href="index.php?lehrer={#kurz}" class="col-md-2 col-sm-2 col-xs-5 btn btn-success">{#lang}</a>
+                [/#lehrer]
+            {/if}
+            {if #plan}
+                <h5>Kollegin / Kollege: {#kollege}</h5>
+
+                <table class="table table-striped table-condensed table-bordered">
+                    {#plan}
+                </table>
+
+                <a href="index.php" class="btn btn-success"> zurück </a>
+            {/if}
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

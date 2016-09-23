@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-2 col-sm-2 col-xs-5">Peuschel</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">di Simoni</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Tröger</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Kallweit</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Krauß</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Lorenz</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Eigler</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Hammermeister</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Findeißen</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Hofmann</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Rülke</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Kurschat</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Kaufmann</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Schulz</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Schröter</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Heider</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Damm</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Schiller</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Heß</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Erler</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Windisch</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Georgi</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Brutcher-Reinhardt</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Gramsch</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Schmiedel</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Helm</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Siegert</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Stavenow</div>
+        <div class="col-md-2 col-sm-2 col-xs-5">Mann</div>
+    </div>
+</div>
