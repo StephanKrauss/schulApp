@@ -66,7 +66,18 @@
 
     <div class="row">
         <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" id="twitter-wjs">
-            <h3>WebApp der Oberschule Bergstadt Schneeberg</h3>
+
+            <p>
+            <h3>Schul App - Oberschule Bergstadt Schneeberg, Vers.: 0.8</h3>
+            Entwickelt von Stephan Krauß<br>
+            </p>
+
+            <p>
+                <a class="glyphicon glyphicon-envelope" href="mailto:info@stephankrauss.de"> info@stephankrauss.de </a>
+            </p>
+            <p>
+                <a class="glyphicon glyphicon-send" href="http://www.stephankrauss.de" target="_blank"> www.stephankrauss.de </a>
+            </p>
 
             <p>
                 Diese WebApp kommt auf Android-Handys zum Einsatz.<br>
@@ -101,6 +112,9 @@
 
                 <li><b>Version 0.7:</b></li>
                 <li>Änderungsplan der Schule mit Markierung der Veränderungen</li>
+
+                <li><b>Version 0.8:</b></li>
+                <li>Kollegenplan mit den Veränderungen des Stundenplanes für jeden Kollegen</li>
             </ul>
 
 
@@ -109,9 +123,7 @@
             <ul>
                 <li>Speiseplan</li>
                 <li>Bildergalerie</li>
-                <li>Kollegenplan</li>
             </ul>
-
 
             <h4>strategische Ausrichtung:</h4>
             <ul>

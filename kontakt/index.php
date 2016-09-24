@@ -64,22 +64,21 @@
 
     <div class="row">
         <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
-            <p>
-                <h3>Schul App - Oberschule Bergstadt Schneeberg, Vers.: 0.7</h3>
-                Entwickelt von Stephan Krauß<br>
-            </p>
-            <p>
-                <a class="glyphicon glyphicon-envelope" href="mailto:info@stephankrauss.de"> info@stephankrauss.de </a>
-            </p>
-            <p>
-                <a class="glyphicon glyphicon-send" href="http://www.stephankrauss.de" target="_blank"> www.stephankrauss.de </a>
-            </p>
 
             <p>
-                <h3>Kontaktdaten Oberschule</h3>
+
+                <h3>Schul App - Oberschule Bergstadt Schneeberg, Vers.: 0.8</h3>
+
+                <h4>Kontaktdaten Oberschule</h4>
+
                 Oberschule Bergstadt Schneeberg<br>
                 Marienstr. 2a<br>
                 08289 Schneeberg
+            </p>
+
+            <p>
+                <a class="btn btn-success btn-lg glyphicon glyphicon-phone-alt visible-xs" role="button" href="tel:+0049377222520"> 03772 / 22520 </a><br>
+                <span class="glyphicon glyphicon-phone-alt visible-sm"></span> Telefon: 03772 / 22520
             </p>
 
             <p>
@@ -88,18 +87,20 @@
             <p>
                 <a class="glyphicon glyphicon-send" href="http://www.oberschule-bergstadt-schneeberg.de.de" target="_blank"> www.oberschule-bergstadt-schneeberg.de.de </a>
             </p>
+
+            <p>
+            <h4>Entwickelt von Stephan Krauß</h4>
+            </p>
+            <p>
+                <a class="glyphicon glyphicon-envelope" href="mailto:info@stephankrauss.de"> info@stephankrauss.de </a>
+            </p>
+            <p>
+                <a class="glyphicon glyphicon-send" href="http://www.stephankrauss.de" target="_blank"> www.stephankrauss.de </a>
+            </p>
+
         </div>
     </div>
 
-    <div class="row">
-        <div class="visible-xs col-xs-4 col-xs-offset-1">
-            <a class="btn btn-success btn-lg glyphicon glyphicon-phone-alt" role="button" href="tel:+0049377222520"> 03772 / 22520 </a>
-        </div>
-
-        <div class="visible-lg visible-md visible-sm col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-            <span class="glyphicon glyphicon-phone-alt"></span> Telefon: 03772 / 22520
-        </div>
-    </div>
 </div>
 
 </body>

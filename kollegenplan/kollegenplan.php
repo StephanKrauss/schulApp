@@ -200,10 +200,21 @@ class kollegenplan extends standard
                 }
             }
 
-            $fach = $elemente['pl_fach'];
-            $raum = $elemente['pl_raum'];
+            $kollege = '';
+            if($stunde->pl_lehrer->attributes())
+                $kollege .= '<span style="color: red">Kollege geändert</span><br>';
 
-            $this->stundenplan[$elemente['pl_stunde']][$elemente['pl_tag']] = $klassen.'<br>'.$fach.'<br>'.$raum;
+            if($stunde->pl_fach->attributes())
+                $fach = '<span style="color:red;">'.$elemente['pl_fach'].'</span>';
+            else
+                $fach = $elemente['pl_fach'];
+
+            if($stunde->pl_raum->attributes())
+                $raum = '<span style="color: red">'.$elemente['pl_raum'].'</span>';
+            else
+                $raum = $elemente['pl_raum'];
+
+            $this->stundenplan[$elemente['pl_stunde']][$elemente['pl_tag']] = $kollege.$klassen.'<br>'.$fach.'<br>'.$raum;
         }
 
         return;
