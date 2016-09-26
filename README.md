@@ -36,7 +36,6 @@ und in der Homepage der Schule.
 
 + Speiseplan
 + Bildergalerie	
-+ Kollegenplan
 
 #### strategische Ausrichtung
 + erstellen einer Template Engine speziell für WebApps
