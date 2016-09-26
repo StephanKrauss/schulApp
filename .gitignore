@@ -1,2 +1,4 @@
-_apk/Schule.apk
-.idea/workspace.xml
+_apk/
+.idea/
+.git/
+.gitignore
