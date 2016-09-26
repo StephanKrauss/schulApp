@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="vplank.xsl"?>
+<vp>
+  <kopf>
+    <datei>VP-Schueler2016-09-27.xml</datei>
+    <titel>Dienstag, 27. September 2016 (B-Woche) </titel>
+    <schulname>Oberschule Bergstadt Schneeberg</schulname>
+    <datum>26.09.2016, 10:08</datum>
+    <kopfinfo>
+      <abwesendl>Ham, Kur, Schr</abwesendl>
+      <abwesendk>8a</abwesendk>
+      <aenderungl>Bar, Dam, diSi, Eig, Erl, Kfm, Kur, Lor, Schu, Sieg</aenderungl>
+      <aenderungk>10a, 10b, 5a, 5b, 6b, 7a, 7b, 9b</aenderungk>
+    </kopfinfo>
+  </kopf>
+  <freietage>
+    <ft>160801</ft>
+    <ft>160802</ft>
+    <ft>160803</ft>
+    <ft>160804</ft>
+    <ft>160805</ft>
+    <ft>161003</ft>
+    <ft>161004</ft>
+    <ft>161005</ft>
+    <ft>161006</ft>
+    <ft>161007</ft>
+    <ft>161010</ft>
+    <ft>161011</ft>
+    <ft>161012</ft>
+    <ft>161013</ft>
+    <ft>161014</ft>
+    <ft>161031</ft>
+    <ft>161116</ft>
+    <ft>161222</ft>
+    <ft>161223</ft>
+    <ft>161226</ft>
+    <ft>161227</ft>
+    <ft>161228</ft>
+    <ft>161229</ft>
+    <ft>161230</ft>
+    <ft>170102</ft>
+    <ft>170213</ft>
+    <ft>170214</ft>
+    <ft>170215</ft>
+    <ft>170216</ft>
+    <ft>170217</ft>
+    <ft>170220</ft>
+    <ft>170221</ft>
+    <ft>170222</ft>
+    <ft>170223</ft>
+    <ft>170224</ft>
+    <ft>170413</ft>
+    <ft>170414</ft>
+    <ft>170417</ft>
+    <ft>170418</ft>
+    <ft>170419</ft>
+    <ft>170420</ft>
+    <ft>170421</ft>
+    <ft>170424</ft>
+    <ft>170501</ft>
+    <ft>170525</ft>
+    <ft>170526</ft>
+    <ft>170605</ft>
+    <ft>170626</ft>
+    <ft>170627</ft>
+    <ft>170628</ft>
+    <ft>170629</ft>
+    <ft>170630</ft>
+    <ft>170703</ft>
+    <ft>170704</ft>
+    <ft>170705</ft>
+    <ft>170706</ft>
+    <ft>170707</ft>
+    <ft>170710</ft>
+    <ft>170711</ft>
+    <ft>170712</ft>
+    <ft>170713</ft>
+    <ft>170714</ft>
+    <ft>170717</ft>
+    <ft>170718</ft>
+    <ft>170719</ft>
+    <ft>170720</ft>
+    <ft>170721</ft>
+    <ft>170724</ft>
+    <ft>170725</ft>
+    <ft>170726</ft>
+    <ft>170727</ft>
+    <ft>170728</ft>
+    <ft>170731</ft>
+  </freietage>
+  <haupt>
+    <aktion>
+      <klasse>5a</klasse>
+      <stunde>1</stunde>
+      <fach fageaendert="ae">MU</fach>
+      <lehrer legeaendert="ae">Bar</lehrer>
+      <raum rageaendert="ae">103Mu</raum>
+      <info>für EN Kur </info>
+    </aktion>
+    <aktion>
+      <klasse>7a</klasse>
+      <stunde>1</stunde>
+      <fach>GE</fach>
+      <lehrer>Dam</lehrer>
+      <raum rageaendert="ae">206In</raum>
+      <info>Raumänderung</info>
+    </aktion>
+    <aktion>
+      <klasse>7b</klasse>
+      <stunde>2</stunde>
+      <fach>GE</fach>
+      <lehrer>Dam</lehrer>
+      <raum rageaendert="ae">206In</raum>
+      <info>Raumänderung</info>
+    </aktion>
+    <aktion>
+      <klasse>10b</klasse>
+      <stunde>2</stunde>
+      <fach fageaendert="ae">BIO</fach>
+      <lehrer legeaendert="ae">Erl</lehrer>
+      <raum rageaendert="ae">203Bi</raum>
+      <info>für CH Schr </info>
+    </aktion>
+    <aktion>
+      <klasse>5b</klasse>
+      <stunde>3</stunde>
+      <fach fageaendert="ae">DE</fach>
+      <lehrer legeaendert="ae">Bar</lehrer>
+      <raum>110</raum>
+      <info>für EN Kur </info>
+    </aktion>
+    <aktion>
+      <klasse>9b</klasse>
+      <stunde>3</stunde>
+      <fach>DE</fach>
+      <lehrer>Lor</lehrer>
+      <raum>204</raum>
+      <info></info>
+    </aktion>
+    <aktion>
+      <klasse>6b</klasse>
+      <stunde>4</stunde>
+      <fach fageaendert="ae">TC</fach>
+      <lehrer legeaendert="ae">Eig</lehrer>
+      <raum rageaendert="ae">206In</raum>
+      <info>für EN Kur </info>
+    </aktion>
+    <aktion>
+      <klasse>6b</klasse>
+      <stunde>5</stunde>
+      <fach fageaendert="ae">KU</fach>
+      <lehrer legeaendert="ae">Sieg</lehrer>
+      <raum rageaendert="ae">105Ku</raum>
+      <info>für EN Kur </info>
+    </aktion>
+    <aktion>
+      <klasse>10a</klasse>
+      <stunde>5</stunde>
+      <fach fageaendert="ae">GK</fach>
+      <lehrer legeaendert="ae">Kfm</lehrer>
+      <raum rageaendert="ae">111</raum>
+      <info>für CH Schr </info>
+    </aktion>
+    <aktion>
+      <klasse>9b</klasse>
+      <stunde>6</stunde>
+      <fach fageaendert="ae">---</fach>
+      <lehrer legeaendert="ae"></lehrer>
+      <raum rageaendert="ae"></raum>
+      <info>CH Schr fällt aus</info>
+    </aktion>
+    <aktion>
+      <klasse>9b</klasse>
+      <stunde>7</stunde>
+      <fach>---</fach>
+      <lehrer></lehrer>
+      <raum rageaendert="ae"></raum>
+      <info></info>
+    </aktion>
+  </haupt>
+</vp>

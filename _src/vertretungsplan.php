@@ -67,6 +67,11 @@ class vertretungsplan extends standard
     {
         for($i=0; $i < count($this->haupt->aktion); $i++){
             $this->hauptArray[$i] = (array) $this->haupt->aktion[$i];
+
+            if(array_key_exists($this->hauptArray[$i]['lehrer'], $this->lehrer))
+                $this->hauptArray[$i]['lehrer'] = $this->lehrer[$this->hauptArray[$i]['lehrer']];
+            else
+                $this->hauptArray[$i]['lehrer'] = '<span style="color: red;">'.$this->hauptArray[$i]['lehrer'].'</span>';
         }
 
         return;

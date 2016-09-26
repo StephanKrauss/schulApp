@@ -57,7 +57,9 @@ class standard
         'Hel' => 'Helm',
         'Sig' => 'Siegert',
         'Sta' => 'Stavenow',
-        'Man' => 'Mann'
+        'Man' => 'Mann',
+        'Sieg' => 'Siegert',
+        'Bar' => 'Bartella'
     );
 
     // Icon Information
