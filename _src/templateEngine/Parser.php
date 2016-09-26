@@ -47,7 +47,7 @@ class Parser {
 	/**
 	 * Parse template content.
 	 */
-	public function parse(){
+	public function   parse(){
 		$this->hashTemplate = md5(json_encode($this->templateParams).$this->templateContent);
 		$cacheContent = Cache::loadTemplate($this->hashTemplate);
 		if(!$cacheContent){

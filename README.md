@@ -28,6 +28,9 @@ und in der Homepage der Schule.
 
 + Version 0.7:	
     + Änderungsplan der Schule mit Markierung der Veränderungen	
+    
++ Version 0.8:
+    + Kollegenplan mit den Veränderungen des Stundenplanes für jeden Kollegen
 	
 #### in Arbeit:
 

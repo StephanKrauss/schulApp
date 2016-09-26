@@ -14,6 +14,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
+                <li><a href="http://www.oberschule-bergstadt-schneeberg.de/category/aktuell/">Aktuell</a></li>
                 <li class=""><a href="/index.php">Kurznachrichten</a></li>
                 <li class=""><a href="/stundenplan/">Stundenpläne</a></li>
                 <li class=""><a href="/aenderungsplan/">Änderungspläne</a></li>
@@ -22,8 +23,8 @@
                 <li class=""><a href="/termine/">Termine</a></li>
                 <li class=""><a href="/speiseplan/">Speiseplan</a></li>
                 <li class=""><a href="/bilder/">Bilder</a></li>
-                <li class=""><a href="/kontakt/">Kontakt</a></li>
-                <li class="active"><a href="/info/">Informationen</a></li>
+                <li class="active"><a href="/kontakt/">Kontakt</a></li>
+                <li class=""><a href="/info/">Informationen</a></li>
             </ul>
         </div>
     </div>

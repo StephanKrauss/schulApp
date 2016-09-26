@@ -29,44 +29,36 @@
 
 
 <div id="container">
-
-    <?php
-    include_once('../_src/templateEngine/Engine.php');
-
-    $variables = array(
-        'navigation' => array(
-            'bilder' => 'active'
-        )
-    );
-
-    $url = $_SERVER['SERVER_NAME'];
-    $parsedUrl = parse_url($url);
-    $host = explode('.', $parsedUrl['path']);
-
-    if($host[0] == 'm'){
-        $engine = new SimpleTemplate\Engine($variables);
-        $engine->loadTemplate(false,"../navigation.html");
-        echo $engine->getOutput();
-    }
-
-    if($host[0] == 'plus') {
-        $engine = new SimpleTemplate\Engine($variables);
-        $engine->loadTemplate(false,"../plus.html");
-        echo $engine->getOutput();
-    }
-    ?>
+    {#navigation}
 
     <div class="row">
-        <div class="col-md-11 col-sm-11 col-xs-11 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
+        <div class="col-md-10 col-sm-10 col-xs-10 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
             <img src="../_public/image/icon_schule_mini.png">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
-            Bildergalerie
+        <div class="col-md-10 col-sm-10 col-xs-10 col-offset-md-1 col-sm-offset-1 col-xs-offset-1">
+            {if #lehrer}
+                <h5>Kolleginen und Kollegen</h5>
+                [#lehrer]
+                    <a href="index.php?lehrer={#kurz}" class="col-md-2 col-sm-2 col-xs-5 btn btn-success">{#lang}</a>
+                [/#lehrer]
+            {/if}
+            {if #plan}
+                <h5>Kollegin / Kollege: {#kollege}</h5>
+
+                <table class="table table-striped table-condensed table-bordered">
+                    {#plan}
+                </table>
+
+                <a href="index.php" class="btn btn-success"> zurück </a>
+            {/if}
         </div>
     </div>
+
+
+
 </div>
 
 </body>
