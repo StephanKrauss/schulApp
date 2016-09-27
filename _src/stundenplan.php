@@ -247,10 +247,14 @@ class lesenStundenplan extends standard
      */
     protected function darstellungStundenplan($stundenDerKlasse, $fachDetail, $ort, $besonderheiten)
     {
-        if (!isset($this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde]))
+        $test = 123;
+
+        if (!isset($this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde])){
             $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] = '<div style="background-color: ' . $fachDetail['farbe'] . ';color: ' . $fachDetail['text'] . ';margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' ' . $besonderheiten . '</div>';
-        else
+        }
+        else{
             $this->stundenplan[(int)$stundenDerKlasse->pl_tag][(int)$stundenDerKlasse->pl_stunde] .= '<div style="background-color: ' . $fachDetail['farbe'] . ';color: ' . $fachDetail['text'] . '; margin-bottom: 3px; padding: 5px; border: solid 1px #E6E6E6;">' . $fachDetail['fach'] . '<br>' . $ort . ' ' . $besonderheiten . '</div>';
+        }
 
         return;
     }

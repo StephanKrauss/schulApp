@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04966a7-6220-4e6d-9ea0-9e06a4e9c491" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_plaene/stundenplanXml/tplan-2016-08-08.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_plaene/vertretungXml/Vertretungsplan Schüler2016-08-15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_plaene/vertretungXml/VplanKl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_plaene/vertretungXml/VplanKl.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/0325b3094a02217e48d0f4b95c52b42a.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/1a13b76791a10223d66b923e67ad4167.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/2ef5f28b7e2a061aafbb1e1481d5c09c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/30e2bce2e915cd3bdcf2360b408e6c30.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/32ec5c0f4bd98aa0908edcee60883e5b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/333b44c2e690fae53e282e7fe18b312b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/3a60a332c05fd308a3e0ec6954385cc3.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/3ee8c84ca2690ab317f1bbf70d1bc1f7.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/417918b7dfb840be4384577524ea975b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/4b597283044d24f1940194449cbb853c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/4df82c549a9f7adbf3d24664ab56c62b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/5f4497ef9a56a7f1e008bb3a22b96ffc.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/64b29ed587ee8d0aa890d30e623c6c78.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/6df222d9bba506eb81899df7fb7d22a6.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/79f072b96489e3fdec9993fcae6d1307.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/7bec063b3ae48d7153f73c18b547c3d0.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/806b5626783d1e8577f253ca52641571.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/bc89113932ffa1f46d5a5e4e97b851a8.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/c819b73db4560b797c02098e06196226.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/c8c2b8ccbb6b9e7654ec403578d10075.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/ca11e7575ed1ea669b7d4d438da40aa1.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/caa2d1d8726029fa876830bbb923b560.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/cd03bbc71ff9b2393d519dd50b058437.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e55a722404fd0b0340c39b3fe279f8cf.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e5986e5319b0b9b7a7d3245b824a3a1b.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/e71e81f2cbdc55079c58822594f17f6c.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/f0c20ba2d191e575f91075fbbd2713ec.cache.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_src/templateEngine/Cache/fd4ac4b300eee892f3f966db99df68ba.cache.tpl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_src/standard.php" afterPath="$PROJECT_DIR$/_src/standard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_src/vertretungsplan.php" afterPath="$PROJECT_DIR$/_src/vertretungsplan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vertretungsplan/view.html" afterPath="$PROJECT_DIR$/vertretungsplan/view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_src/stundenplan.php" afterPath="$PROJECT_DIR$/_src/stundenplan.php" />
     </list>
     <ignored path="twitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +56,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vertretungsplan/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="1462">
               <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
               <folding />
             </state>
@@ -56,9 +79,36 @@
       <file leaf-file-name="standard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_src/standard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="76" column="85" selection-start-line="76" selection-start-column="85" selection-end-line="76" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stundenplan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_src/stundenplan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+              <folding>
+                <marker date="1474960606859" expanded="true" signature="1207:1213" ph="ü" />
+                <marker date="1474960606859" expanded="true" signature="2659:2699" ph="..." />
+                <marker date="1474960606859" expanded="true" signature="2817:2856" ph="..." />
+                <marker date="1474960606859" expanded="true" signature="2871:2877" ph=" " />
+                <marker date="1474960606859" expanded="true" signature="3064:3102" ph="..." />
+                <marker date="1474960606859" expanded="true" signature="3146:3152" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +171,6 @@
         <option value="$PROJECT_DIR$/_src/templateEngine/Parser.php" />
         <option value="$PROJECT_DIR$/kollegenplan/steuerung.php" />
         <option value="$PROJECT_DIR$/kollegenplan/tabelleKollegen.html" />
-        <option value="$PROJECT_DIR$/_src/stundenplan.php" />
         <option value="$PROJECT_DIR$/kollegenplan/index.php" />
         <option value="$PROJECT_DIR$/kollegenplan/kollegenplan.html" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -130,6 +179,7 @@
         <option value="$PROJECT_DIR$/kollegenplan/kollegenplan.php" />
         <option value="$PROJECT_DIR$/vertretungsplan/view.html" />
         <option value="$PROJECT_DIR$/_src/vertretungsplan.php" />
+        <option value="$PROJECT_DIR$/_src/stundenplan.php" />
         <option value="$PROJECT_DIR$/_src/standard.php" />
       </list>
     </option>
@@ -156,10 +206,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1288" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,14 +266,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vertretungsplan" />
+              <option name="myItemId" value="stundenplan" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,33 +423,34 @@
       <workItem from="1474897127405" duration="879000" />
       <workItem from="1474898211530" duration="198000" />
       <workItem from="1474899698885" duration="605000" />
+      <workItem from="1474959079992" duration="2360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140847000" />
+    <option name="totallyTimeSpent" value="143207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15138593" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23220065" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21338251" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28894174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27090302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -434,7 +485,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="185" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/_src/stundenplan.php</url>
+          <line>278</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/_src/stundenplan.php</url>
+          <line>280</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/_src/stundenplan.php</url>
+          <line>285</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/_src/stundenplan.php</url>
+          <line>287</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/_src/stundenplan.php</url>
+          <line>272</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <condition expression="$stundenDerKlasse-&gt;pl_fach == 'NK'" language="PHP" />
+          <url>file://$PROJECT_DIR$/_src/stundenplan.php</url>
+          <line>249</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="207" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -587,20 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_src/stundenplan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5185">
-          <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kollegenplan/kollegenplan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -662,7 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vertretungsplan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="1462">
           <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
           <folding />
         </state>
@@ -679,10 +752,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stundenplan/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_src/stundenplan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding>
+            <marker date="1474960606859" expanded="true" signature="1207:1213" ph="ü" />
+            <marker date="1474960606859" expanded="true" signature="2659:2699" ph="..." />
+            <marker date="1474960606859" expanded="true" signature="2817:2856" ph="..." />
+            <marker date="1474960606859" expanded="true" signature="2871:2877" ph=" " />
+            <marker date="1474960606859" expanded="true" signature="3064:3102" ph="..." />
+            <marker date="1474960606859" expanded="true" signature="3146:3152" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_src/standard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="76" column="85" selection-start-line="76" selection-start-column="85" selection-end-line="76" selection-end-column="85" />
           <folding />
         </state>
       </provider>

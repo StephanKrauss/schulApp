@@ -74,7 +74,7 @@ class standard
         5 => ' Fr. '
     );
 
-    protected $textFarbe = array('FR','FÖ','REe','WTH','DE','INT');
+    protected $textFarbe = array('FR','FÖ','REe','WTH','DE','INT','NK:K','NK:G','NK:S');
 
     protected $externeOrte = array(
         'TH1' => 'Turnhalle 1',
@@ -166,6 +166,18 @@ class standard
         'INT' => array(
             'fach' => 'Integ',
             'farbe' => '#3399ff'
+        ),
+        'NK:K' => array(
+            'fach' => 'NK:K',
+            'farbe' => '#ff8c54'
+        ),
+        'NK:G' => array(
+            'fach' => 'NK:G',
+            'farbe' => '#ff8c54'
+        ),
+        'NK:S' => array(
+            'fach' => 'NK:S',
+            'farbe' => '#ff8c54'
         )
     );
 
